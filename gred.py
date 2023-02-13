@@ -18,3 +18,5 @@ else:
     print("HI " + name)
     print("Grade : " + str(gred))
     print("better luck next time")
+
+    #enjoy
