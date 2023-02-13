@@ -6,5 +6,5 @@ weight = float(input("What is Your weight : "))
 height = float(input("What is Your height : "))
 greeting = "Hello" + " "+name
 bmi= weight / (height*height)
-print (name + " " + "This is Your BMI " + " "+ str(bmi))
 print(greeting)
+print (name + " " + "This is Your BMI " + " "+ str(bmi))
