@@ -27,6 +27,8 @@ print('3. Search for supplies')
 choice1 = int(input("Enter either 1,2 or 3 :"))
 choice2 = int(input("Enter either 1,2 or 3 :"))
 
+print( "\n"+"-----------------------------------------------------------")
+
 if choice1 == 1: 
     print('\n '+ player1_name + ' decides to fight the intruders and does ' + str(player1_damage)+ " damage per shot! ")
     player1_ammo -= 10
@@ -83,3 +85,4 @@ print("Player 1 Name : " + player1_name)
 print("Player 1 Health : " + str(player1_health))
 print("Player 2 Name : " + player2_name)
 print("Player 2 Health : " + str(player2_health))
+print("ahhhhhhhhhhh")
